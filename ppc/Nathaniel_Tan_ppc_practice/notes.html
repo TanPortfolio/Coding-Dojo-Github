@@ -1,0 +1,63 @@
+Hi Nathaniel, 
+
+First of all, great job at this. Organization looks very good. Div semantics look fairly good. Good job on not using floats. 
+
+I would like to point out a few things, however:
+
+1. Please work on modularizing your files. For example, you have all of the img files spread out on the same level as your html and css files. Fix this by creating your imgs folder and putting all of your img files within. When you reference these imgs, you would do so by <img src="imgs/img_name.png">. This is to enhance file organization. 
+
+2. Perhaps either line 14 or line 15 is redundant? Keep one of these because all you are trying to target is the list and only one div around it would suffice. 
+
+3. In regards to the four boxes inside <div id="bottomBoxes"></div> starting on line 42: You could have used class instead of ids to target the boxes individually. Classes are primarily used when you have a similar style that you would like to apply to html components. Here, you can see that the four boxes are almost identical in layout except for the text and the image contents. Hence, it is more logical to target each of the boxes by a class named, for example, "box". This is great because not only are you refactoring code, you have less things to manage. 
+
+4. You don't have to create ids or classes for each tag...this might actually make your css file more confusing and cluttered. Just like in your html document, you could set up a parent-child hierarchy in your css file. For example, you have on line 38:
+
+<div id="middle"> 
+	<img id="tiny" src="tiny.png">
+	<p id="midText">PPC now had Bulk Delivery/Squirt Fill capabilities for DEF</p>
+</div>
+
+Here you could take out id="tiny" and even id="midText". Instead target these inner html components by #middle tiny and #middle midText respectively. 
+
+5. In your <html> tag, please indicate the language code. 
+
+6. Indentation in PPCLubricants.css is not there. Although indentation doesn't affect your html functionally, it enforces good practice and standard. For example, if you are targeting an html component that is within a certain div with a certain id, you would indent one to the right. For example, you currently have on line 43 of you css file:
+
+#aboutBody{
+	color:white;
+	width:550px;
+	height: 266px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#aboutBody p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+This should be: 
+
+#aboutBody{
+	color:white;
+	width:550px;
+	height: 266px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	#aboutBody p{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+7. Very minor, but name your files more descriptively...like index.html and style.css. 
+
+Hope that helps
+-Heezy

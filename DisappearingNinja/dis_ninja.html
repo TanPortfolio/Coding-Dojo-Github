@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Disappearing Ninja</title>
+	<!-- Latest compiled and minified CSS --> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Below meta tag ensures proper rendering mobile device touch screens --> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css'>
+	<link rel="stylesheet" href='css/ninja.css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js'></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>JQuery - Dissapearing Ninja</h2>
+			</div>
+		<div class="row">
+			<div class="col-md-3">
+				<img src="img/ninja1.jpg" id="img1">
+			</div>
+			<div class="col-md-3">
+				<img src="img/ninja2.jpg" id="img2">
+			</div>
+			<div class="col-md-3">
+				<img src="img/ninja3.jpg" id="img3">
+			</div>
+			<div class="col-md-3">
+				<img src="img/ninja4.jpg" id="img4">
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img src="img/ninja5.jpg" id="img5">
+			</div>
+			<div class="col-md-3">
+				<img src="img/ninja6.jpg" id="img6">
+			</div>
+			<div class="col-md-3">
+				<img src="img/ninja7.jpg" id="img7">
+			</div>
+			<div class="col-md-3">
+				<img src="img/ninja8.jpg" id="img8">
+			</div>
+		</div>
+		<button>Restore</button>
+	</div>
+</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#img1').click(function(){
+				$(this).hide();
+			})
+			$('#img2').click(function(){
+				$(this).hide();
+			})
+			$('#img3').click(function(){
+				$(this).hide();
+			})
+			$('#img4').click(function(){
+				$(this).hide();
+			})
+			$('#img5').click(function(){
+				$(this).hide();
+			})
+			$('#img6').click(function(){
+				$(this).hide();
+			})
+			$('#img7').click(function(){
+				$(this).hide();
+			})
+			$('#img8').click(function(){
+				$(this).hide();
+			})
+
+			$('button').click(function(){
+				$('img').show();
+			})
+		})
+	</script>
+</html>

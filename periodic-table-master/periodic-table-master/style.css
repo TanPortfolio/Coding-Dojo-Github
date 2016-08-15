@@ -1,0 +1,165 @@
+h1 {
+	margin: 7%;
+	color: #1913A2;
+	line-height: 50%;
+	font-size: 1rem;
+	font-family: Arial;
+}
+h2 {
+	text-align: center;
+	color: red;
+	font-size: .6rem;
+	vertical-align: top;
+}
+body {
+	width: 970px;
+	height: auto;
+	background-color: #EEEEEE;
+}
+p, li {
+	font-size: .45em;
+	font-family: Arial;
+}
+#period-lable-column{
+	color: red;
+	text-align: center;
+	width: auto;
+	height: auto;
+	display: inline-block;
+}
+
+#period-lable-column ul :first-child {
+	margin: -15% 0 0 0;
+}
+#period-lable-column ul{
+	margin: 0 0 0 0;
+}
+#period-lable-column li{
+	color: red;
+	width: auto;
+	height: auto;
+	margin: 75% 0 75% 0;
+	padding: 6% 0 6% 0;
+	list-style: none;
+}
+#one {
+	margin-bottom: 50%;
+}
+#two {
+	margin-bottom: 158%;
+}
+.blue{
+	display: inline-block;
+	vertical-align: top;
+	height: 30px;
+	width: 30px;
+}
+.blue ul{
+	border: 1px solid gray;
+	background-color: #689BFF;
+	height: 100%;
+	width: 100%;
+	padding: 1%;
+	margin: 5% 0 5% 0;
+}
+.blue li {
+	display: block;
+	text-align: center;
+}
+.pink {
+	display: inline-block;
+	vertical-align: top;
+	height: 30px;
+	width: 30px;
+}
+.pink h2 {
+	margin-bottom: 374%;
+}
+.pink ul{
+	border: 1px solid gray;
+	background-color: #FD9A98;
+	height: 100%;
+	width: 100%;
+	padding: 1%;
+	margin: 5% 0 5% 0;
+}
+.pink li {
+	display: block;
+	text-align: center;
+}
+.yellow {
+	display: inline-block;
+	vertical-align: top;
+	height: 30px;
+	width: 30px;
+}
+.yellow h2 {
+	margin-bottom: 155%;
+}
+#eighteen {
+	margin-bottom: 48%;
+}
+.yellow ul{
+	border: 1px solid gray;
+	background-color: #FECB00;
+	width: 100%;
+	height: 100%;
+	padding: 1%;
+	margin: 5% 0 5% 0;
+}
+.yellow li {
+	display: block;
+	text-align: center;
+}
+#bottom {
+	width: 820px;
+	height: 200px;
+	margin: 1% 0 0 0;
+}
+
+.bottom-label {
+	width: 60px;
+	height: auto;
+	display: inline-block;
+	margin: 18px 0 0 72px;
+}
+.bottom-label h2 {
+	text-align: left;
+	margin: 0px 0 25px 0;
+	line-height: 100%;
+}
+.bottom-asterick {
+	width: 5px;
+	height: auto;
+	display: inline-block;
+	margin: 18px 0 0 10px;
+}
+.bottom-asterick h2 {
+	text-align: right;
+	margin: 0px 0 0px 0;
+	line-height: 100%;
+}
+.green {
+	width: 550px;
+	height: 30px;
+	margin: 0 0 10px 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+.green ul{
+	border: 1px solid gray;
+	background-color: #1FCA21;
+	display: inline-block;
+	vertical-align: top;
+	width: 35px;
+	height: 105%;
+	padding: 0 0 1% 0;
+	margin: 0 0px 0 -2.5px;
+}
+.green li {
+	display: block;
+	text-align: center;
+}
+.green ul li h1 {
+	padding: 5% 0 5% 0;
+}

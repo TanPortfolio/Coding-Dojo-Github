@@ -1,0 +1,23 @@
+div {
+	height: 300px;
+	width: 225px;
+	display: inline-block;
+	border: 2px solid black;
+	margin: 5px;
+	vertical-align: top;
+}
+#box1 {
+	background-image: url('images/greenback.jpg');
+}
+#box2 {
+	background-image: url('images/blackback.jpg');
+}
+#box3 {
+	background-image: url('images/purpleback.jpg');
+}
+#box4 {
+	background-image: url('images/blueback.jpg');
+}
+img {
+	vertical-align: top;
+}

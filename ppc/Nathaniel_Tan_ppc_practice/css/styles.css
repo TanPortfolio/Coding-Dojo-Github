@@ -1,0 +1,129 @@
+/**{
+	border:1px solid red;
+}*/
+body{
+	min-width: 970px;
+	font-family: arial;
+	margin: 0px 0px 0px 0px;
+}
+#tollFree{
+	display:inline-block;
+	position: absolute;
+	right:5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+#menu{
+	top: 65px;
+	height:40px;
+	background-color: #666666;
+}
+	#menu a, li{
+		display: inline-block;
+		text-decoration: none;
+		color:#eee;
+		font-size: 12px;
+		margin-bottom: 4px;
+	}
+	#menu li{
+		border-left: 1px solid #eee;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+#main{
+	width: 100%;
+	height: 800px;
+	background-color: black;
+}
+#aboutBody{
+	color:white;
+	width:550px;
+	height: 266px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	text-align: left;
+	margin-left: 10px;
+margin-right: 10px;
+}
+	#aboutBody p{
+		margin-left: 10px;
+	margin-right: 10px;
+	}
+	#aboutBody h4{
+	font-size: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+	#aboutBody #yellowTitle{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top:5px;
+	color:black;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	}
+#topRow img{
+	border: 3px solid white;
+}
+#bottomBoxes .yellow, #topRow .yellow{
+	background-color: #FBD040;
+	margin-top: 0px;
+	padding-left: 20px;
+}
+#bottomBoxes .yellow{
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.bottomBoxes{
+	height:250px;
+	width:225px;
+	display: inline-block;
+	margin: 0px 6px;
+	border: 1px solid gray;
+	text-align: left;
+}
+#topRow{
+	padding-top: 10px;
+}
+#bottomBoxes, #topRow{
+	width:970px;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+}
+#middle{
+	width: 970px;
+}
+	#middle img {
+		margin: 15px 0px 0px 40px;
+	}
+		#middle p{
+			color:yellow;
+			margin:-20px 0px 10px 100px;
+			font-size: 12px;
+		}
+.margin{
+	margin:0 auto;
+}
+.pic{
+	margin-top: -15px;
+}
+.text{
+	font-size: 10px;
+	height:222;
+	margin:0px 7px 0px 7px;
+}
+.whiteB{
+	background-color: white;
+}
+.gray{
+	background-color: gray;
+}
+.readMore{
+	margin-left: 110px;
+	margin-top: 16px;
+}

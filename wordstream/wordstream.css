@@ -1,0 +1,201 @@
+#container {
+    width: 970px;
+    height: auto;
+}
+#link {
+    border-right: 2px;
+    border-color: #9f9f9f;
+    margin-left: 400px;
+}
+
+#link ul li {
+    border-right: 2px solid #9f9f9f;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+
+#link, #login {
+    display: inline;
+}
+
+#login {
+    margin-left: 25px;
+    text-decoration: none;
+    background-color: #1D7BBC;
+    padding: 2px;
+    border-radius: 4px;
+    padding: 4px 0 4px 0;
+}
+
+#nav #login ul li a {
+    color: #fff;
+    margin-right: 12px;
+}
+#nav ul {
+    display: inline;
+
+}
+
+#nav ul li {
+    display: inline;
+    text-align: center;
+}
+
+#nav ul li a{
+    display: inline;
+    list-style-type: none;
+    color: #9f9f9f;
+    text-decoration: none;
+}
+
+#banner img {
+    width: 200px;
+    height: 54px;
+}
+
+#header {
+    height: auto;
+    background-color: #1D7BBC;
+    height: 60px;
+    color: white;
+    line-height: 60px;
+}
+
+#header h1 {
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+#side-bar, #main-content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#side-bar {
+    width: 200px;
+    min-height: 700px;
+    text-align: center;
+}
+
+#side-bar h5 a {
+    color: #1D7BBC;
+}
+#side-bar h3 {
+    margin-top: 65px;
+    color: #1D7BBC;
+}
+
+#side-bar h4 {
+    color: red;
+    font-size: 12px;
+}
+
+.demo {
+    text-decoration: none;
+    background-color: #228FD3;
+    padding: 6px 30px;
+    border-radius: 4px;
+    color: #fff;
+}
+#test {
+    height: 20px;
+}
+
+.trial {
+    margin-top: 200px;
+    text-decoration: none;
+    background-color: #E35100;
+    padding: 6px 52px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+#side-bar img {
+    width: 200px;
+    height: 250px;
+}
+#main-content {
+    width: 720px;
+    font-size: 16px;
+    margin-left: 40px;
+}
+img {
+    width: 250px;
+    height: 100px;
+}
+
+#home, #phone, #info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#home img{
+    width: 100px;
+    height: 80px;
+}
+
+#phone img {
+    width: 38px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+#phone {
+    display: inline;
+    text-align: right;
+
+}
+
+#info {
+    line-height: 10%;
+}
+
+#info h2, #info-box h3 {
+    color: #1D7BBC;
+}
+
+#info h5 {
+    color: #9f9f9f;
+}
+
+.start {
+    margin-top: 200px;
+    text-decoration: none;
+    background-color: #94B513;
+    padding: 8px 30px;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+#info-box {
+    border: 5px solid #1D7BBC;
+    height: 176px;
+}
+
+#info-box img {
+    width: 66px;
+    height: 77px;
+    margin-top: 16px;
+}
+
+#main-content h2, #main-content h4, #main-content a {
+    color: #1D7BBC;
+}
+
+#info-image {
+    height: 70px;
+}
+
+.info-image, #info-content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#info-content {
+    width: 620px;
+    margin-top: -4px;
+}
+

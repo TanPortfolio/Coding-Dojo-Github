@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hover In and Out</title>
+	<link rel="stylesheet" type="text/css" href="hover.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">	
+		$(document).ready(function() {
+			console.log(this);
+			$('div').hover(function() {
+				$('img.'+this.id).fadeOut()}, function() {
+				$('img').fadeIn();
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>Hover In/Out</h1> 
+	<div id="box1"><img class="box1" src="images/greenfront.jpg"></div>
+	<div id="box2"><img class="box2" src="images/blackfront.jpg"></div>
+	<div id="box3"><img class="box3" src="images/purplefront.jpg"></div>
+	<div id="box4"><img class="box4" src="images/bluefront.jpg"></div>
+</body>
+</html>

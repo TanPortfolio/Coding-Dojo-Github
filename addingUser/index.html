@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Adding User</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Adding a user with jquery">
+  <link rel="stylesheet/less" type="text/css" href="css/styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="body">
+      <h1>Adding a New User</h1>
+      <p>This demo uses the .val() and .append() .on() functions in jQuery to add new users to the table below.</p>
+      <table class="table table-bordered table-hover table-condensed">
+        <tr class="col-headings">
+          <th>First Name</th>
+          <th>Last Name</th>    
+          <th>Email</th>
+          <th>Contact #</th>
+        </tr>
+        <tr class="user1">
+          <td>John</td>
+          <td>Smith</td>    
+          <td>johnsmith@gmail.com</td>
+          <td>(123)456-7890</td>
+        </tr>
+      </table>
+      <form>
+        <h2>Sign-up for our mailing list!</h2>
+        First name: <input type="text" id="firstName" class="form-control">
+        Last name:  <input type="text" id="lastName" class="form-control">
+        Email Address:<input type="text" id="email" class="form-control">
+        Contact Number: <input type="text" id="number" class="form-control">
+        <br>
+        <button type="submit" class="add btn btn-default">Add User</button>
+        <button class="reset btn btn-default">Reset Form</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

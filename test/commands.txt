@@ -1,0 +1,21 @@
+$ pwd
+/c/Users/Nathan JOestar
+$ mkdir test
+$ cd desktop
+$ pwd
+/c/Users/Nathan JOestar/desktop
+$ mkdir test
+$ cd test
+$ touch index.html
+$ touch styles.css
+$ touch commands.txt
+$ cp index.html index_2.html
+$ cd ..
+$ mkdir destination
+$ cd test
+$ mv index_2.html ../destination/index_2.html
+$ rm styles.css
+$ cd ..
+$ ls -l test
+$ ls -l destination
+$ rm -rf destination

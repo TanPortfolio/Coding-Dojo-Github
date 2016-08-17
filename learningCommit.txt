@@ -1,0 +1,18 @@
+$ mkdir test
+$ cd test
+$ touch index.html
+$ touch styles.css
+$ git init
+$ git add *
+$ git commit -m "Commiting first files"
+$ git commit -m "Update html"
+$ git add *
+$ git commit -m "Update html"
+$ git add *
+$ git commit -m "Update Css"
+$ git log
+$ git revert -n head
+$ git revert -n 1fc97
+$ git commit -m "reverted"
+$ git add *
+$ git commit -m "recommitted"

@@ -1,0 +1,258 @@
+// color palettes
+
+@darkgrey: #434343;
+@mediumgrey: #E0E0E0;
+@lightgrey: #F3F3F5;
+@faintgrey: #F9F9F9;
+
+@lightblue: #5DB2F1;
+@darkblue: #4D87AD;
+@navyblue: #334455;
+
+// Heights and widths
+
+@containerwidth: 970px;
+@minheight: 60px;
+
+// ************
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: @minheight;
+}
+
+button {
+	border: none;
+	padding: 7px 35px;
+	cursor: pointer;
+	color: white;
+	margin: 10px 0px;
+	font-weight: 500;
+	background: @navyblue;
+	outline: none;
+}
+
+button:hover {
+	opacity: .8;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: @darkgrey;
+}
+
+a:hover {
+	color: @lightblue;
+}
+
+li {
+	list-style-type: none;
+}
+
+div.container {
+	// background: @lightblue;
+	width: @containerwidth;
+	margin: 10px auto;
+	div#header {
+		background-image:
+	  -webkit-linear-gradient(@faintgrey, @lightgrey);
+		background-image:
+	  -o-linear-gradient(@faintgrey, @lightgrey);
+		background-image:
+	  linear-gradient(@faintgrey, @lightgrey);
+		border-radius: 8px;
+		border: 1px solid #EDEDED;
+		height: 60px;
+		margin-bottom: 10px;
+		nav {
+			// background: @mediumgrey;
+			display: inline-block;
+			vertical-align: top;
+			width: 660px;
+			li {
+				display: inline-block;
+				padding: 21px 28px;
+				font-weight: bold;
+				font-size: 14px;
+				border-right: 2px solid @lightgrey;
+			}
+		}
+		input {
+			padding: 5px;
+			border: 1px solid @lightgrey;
+			border-top-left-radius: 20px;
+			border-bottom-left-radius: 20px;
+			margin: 15px -5px 0px 20px;
+			background-image: url('../img/magnifying-glass.png');
+			background-position: 1px -2px;
+    	background-repeat: no-repeat;
+    	background-size: 30px;
+		}
+		img {
+			display: inline-block;
+			vertical-align: top;
+		}
+		img#logo {
+			margin-top: -1px;
+			height: 60px;
+			width: 67px;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+		img#search-arrow {
+			margin-top: 16px;
+			height: 26px;
+		}
+	}
+	div#jumbotron {
+		background: @navyblue;
+		margin-bottom: 20px;
+		ul {
+			margin-left: 20px;
+			li {
+			display: inline-block;
+			padding: 5px 10px 10px 10px;
+				span {
+					color: white;
+					padding-left: 10px;
+					font-size: 16px;
+				}
+				a {
+					color: @lightblue;
+				}
+				a:hover {
+					color: white;
+				}
+			}	
+		}
+	}
+	div#body {
+		background: #F7F7F7;
+		border-radius: 5px;
+		border: 2px solid @lightgrey;
+		height: 450px;
+		margin-bottom: 20px;
+		div#body-top {
+			background: white;
+			border-bottom: 2px solid @lightgrey;
+			padding: 10px;
+			h1, button {
+				display: inline-block;
+				vertical-align: top;
+			}
+			h1 {
+				border-right: 1px solid @lightgrey;
+				margin: 10px 5px;
+				padding: 0px 50px 0px 40px;
+			}
+			button {
+				margin-top: 15px;
+				margin-left: 45px;
+				background: @darkblue;
+				border-radius: 5px;
+				width: 200px;
+			}
+		}
+		div#body-content {
+			height: 325px;
+			border-bottom: 2px solid @lightgrey;
+			div.col-25 {
+				width: 24%;
+				display: inline-block;
+				margin-top: 17px;
+				margin-left: 5px;
+				height: 280px;
+				vertical-align: top;
+				padding: 15px;
+				border-right: 2px solid @lightgrey;
+				img, h4 {
+					display: inline-block;
+					vertical-align: top;
+				}
+				h4 {
+					padding-top: 2px;
+				}
+				p {
+					padding: 10px 0px 20px 0px;
+					font-size: 12px;
+				}
+				button {
+					background: @lightblue;
+					width: 170px;
+					border-radius: 5px;
+					margin-left: 12px;
+				}
+			}
+			div.col-25:last-child {
+				border: none;
+			}
+		}
+	}
+	div#footer {
+		border-bottom: 1px solid @lightgrey;
+		height: 260px;
+		div.col-15 {
+			width: 157px;
+			padding: 10px;
+			display: inline-block;
+			vertical-align: top;
+			h4 {
+				border-bottom: 1px solid @lightgrey;
+				padding-bottom: 10px;
+				margin-bottom: 10px;
+			}
+			li {
+				padding: 8px 0px;
+				font-weight: bold;
+				font-size: 11px;
+			}
+		}
+	}
+	div#contact-info {
+		padding-top: 20px;
+		li {
+			display: inline-block;
+			padding: 0px 15px;
+			border-right: 1px solid @darkgrey;
+			font-size: 12px;
+		}
+		li:first-child {
+			padding-left: 0px;
+		}
+		li:last-child {
+			border: none;
+		}
+		a {
+			color: @lightblue;
+		}
+		a:hover {
+			color: @darkblue;
+		}
+	}
+}
+
+// Images
+
+#watch-now, #tour, 
+#down-arrow, #ipads  {
+	width: 180px;
+	height: 110px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#watch-now, #ipads {
+	height: 125px;
+}

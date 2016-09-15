@@ -5,7 +5,7 @@ def scoreGrade():
 			score = int(data)
 		except ValueError:
 			print "Please insert a valid integer"
-		else:
+		else: #What is this else a complement to?  As there is no if, do you need to say 'else'?  Just curious :)
 			if 60 <= score <= 69:
 				print "Scores:", score , "; Your grade is D"
 			elif 70 <= score <= 79:

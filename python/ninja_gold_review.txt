@@ -1,0 +1,5 @@
+Nathaniel,
+Your Ninja Gold assignment looks really fantastic.  Most people don't take the time to split out the functionality the way you did.
+I thoroughly enjoyed how you A) created additional functions to handle activities and whether or not you'd lose money at the casino 
+and B) how you implemented winning or losing money at the casino.  It was very clean and it's the first time I've seen someone
+accomplish Ninja Gold in this manner.  Keep it up.

@@ -1,0 +1,4 @@
+So I code reviewed Ninja Gold before this assignment and I'm thinking you had some serious fun doing these assignments, because 
+yet again, you've done things I've not seen from your colleagues or anyone really.  The way you're handling all cases of inputs,
+and using flash's category_filter is slick.  Listen Nathaniel, you're doing really well.  Honestly.  You're going above and beyond 
+and it's inspiring.  Keep up the great work and keep refusing to do the bare minimum to get the assignments finished.  

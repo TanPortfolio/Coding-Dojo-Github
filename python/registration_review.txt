@@ -1,0 +1,52 @@
+Pretty great again Nathaniel.  I wonder, when you were doing all those {% with messages = get_flashed_messages() %},
+did you try stating it just once so it encompasses ALL places where you might want to access the messages variable?  Meaning, if you state it 
+on line 18, then end it with {% end with %} after the last input, you could probably save yourself repetition.
+
+<form class="contact_form" action="/register" method="post" name="contact_form">
+  <ul>
+    <li>
+      <h2>Contact Us</h2>
+      <span class="required_notification">* Denotes Required Field</span>
+    </li>
+    <li>
+      <label for="first_name">First name:</label>
+      <input type="text" name="first_name" placeholder="John" />
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {{messages[0]['first_name']}}
+    </li>
+    <li>
+      <label for="last_name">Last name:</label>
+      <input type="text" name="last_name" placeholder="Doe" />
+        {{messages[0]['last_name']}}
+    </li>
+    <li>
+      <label for="email">Email:</label>
+      <input type="text" name="email" placeholder="johndoe@something.com"/>
+      <span class="form_hint">Proper format "name@something.com"</span>
+        {{messages[0]['email']}}
+    </li>
+    <li>
+      <label for="password">Password:</label>
+      <input type="text" name="password" placeholder="password"/>
+        {{messages[0]['password']}}
+    </li>
+    <li>
+      <label for="confirm_password">Cofirm Password:</label>
+      <input type="text" name="confirm_password" placeholder="confirm password"/>
+        {{messages[0]['confirm_password']}}
+    </li>
+    <li>
+      <label for="birthday">Birthday:</label>
+      <input type="text" name="birthday" placeholder="MO/DY/YEAR"/>
+        {{messages[0]['birthday']}}
+        {% endif %}
+      {% endwith %}
+    </li>
+    <li>
+        <button class="submit" type="submit">Submit Form</button>
+    </li>
+  </ul>
+</form>
+
+Let me know what you think.  Great REGEX on the password too.

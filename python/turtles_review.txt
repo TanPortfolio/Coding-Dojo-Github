@@ -1,0 +1,27 @@
+Alright,
+Something I can provide guidance on!  Just going to copy in some of your code first...
+
+# I like that you're setting up a turtles dictionary with all their corresponding colors and image files, smart!
+turtles = {'red':'donatello.jpg', 'green':'leonardo.jpg', 'blue':'michelangelo.jpg', 'purple':'raphael.jpg', 'april': 'notapril.jpg'}
+
+@app.route('/ninja', methods = ['GET'])
+def index():
+    data = turtles # Okay here's where I like the idea of creating a new copy of your turtles dictionary
+    data.pop('april') # because here you are lopping off April, which is smart.
+    contents = turtles # But here, I'm not sure why you're creating the contents variable to be a copy of the original turtles dictionary
+    # as you are not really using it.  saying contents = data in your render_template function is all you need in this case.  contents is 
+    # the keyword you get to use in your template.  You don't need to specify it like you did on line 11.
+    return render_template('index.html', contents = data)
+
+@app.route('/ninja/<turtle>', methods = ['GET'])
+def show(turtle):
+    data = {} 
+    if turtle == 'red' or turtle == 'green' or turtle == 'blue' or turtle == 'purple':
+    # I like this check ^^^^ but it can be made easier by saying if turtle in turtles..which will look for that key in the turtles dictionary.
+        data[turtle] = turtles[turtle]
+    else:
+        data['april']=turtles['april']
+    return render_template('index.html', contents = data)
+
+# In general it's very good and I like how you even made it reliant upon just ONE template as opposed to the required two.  
+# Yet again, going above and beyond.  Nicely done Nathaniel.
